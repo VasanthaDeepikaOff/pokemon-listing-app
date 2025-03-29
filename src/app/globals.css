@@ -24,3 +24,38 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Pokemon list */
+.pokemon-list {
+  @apply text-white list-none;
+}
+
+.pokemon-list__item {
+  @apply mb-2;
+}
+
+.pokemon-list__link {
+  @apply cursor-pointer hover:text-yellow-300;
+}
+
+
+/* Pokemon details */
+.pokemon-detail {
+  @apply p-6 text-white;
+}
+
+.pokemon-detail__image {
+  @apply relative my-4;
+}
+
+.pokemon-detail__title {
+  @apply text-xl text-amber-600 font-semibold;
+}
+
+.pokemon-detail__list {
+  @apply list-none;
+}
+
+.pokemon-detail__item {
+  @apply pb-1 pl-1 text-amber-500;
+}
